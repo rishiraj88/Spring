@@ -6,7 +6,7 @@
 
 	<bean id="sg" class="git.rishiraj88.SequenceGenerator">
 		<constructor-arg index="0" value="ABC"></constructor-arg>
-		<constructor-arg index="1" value="XYZ"></constructor-arg>
+		<constructor-arg index="1" value="2000"></constructor-arg>
 		<constructor-arg index="2" value="1000"></constructor-arg>
 		<!-- <property name="prefix" value="ABC"></property>
 		<property name="suffix" value="XYZ"></property>
