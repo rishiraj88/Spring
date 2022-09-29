@@ -6,13 +6,12 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="sg" class="git.rishiraj88.SequenceGenerator"
-	p:prefix="abc" p:suffix="xyz"
-	>
-		<constructor-arg index="0" value="ABC"/>
-		<constructor-arg index="1" value="2000"/>
-		<constructor-arg index="2" value="1000" type="int"/>
-		<!-- <property name="prefix" value="ABC"></property>
-		<property name="suffix" value="XYZ"></property>
+		p:prefix="abc" p:suffix="xyz">
+		<constructor-arg index="0" value="ABC" />
+		<constructor-arg index="1" value="2000" />
+		<constructor-arg index="2" value="1000" type="int" />
+		<!-- <property name="prefix" value="ABC"></property> 
+		<property name="suffix" value="XYZ"></property> 
 		<property name="initialValue" value="1000"></property> -->
 	</bean>
 
